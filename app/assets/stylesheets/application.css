@@ -13,3 +13,162 @@
  *= require_tree .
  *= require_self
  */
+
+ *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ }
+
+ .top-welcome{
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 25px;
+ }
+
+ .top-content{
+  margin-left: 50px;
+  line-height: 3;
+ }
+
+ .top-start{
+  margin-left: 50px;
+ }
+
+ .index-success{
+  color:green;
+  margin-top: 30px;
+  margin-left: 50px;
+ }
+
+ .index-error-all{
+  width: 500px;
+  height:150px;
+  border: 5px solid red;
+  background-color: gainsboro;
+ }
+
+ .edit-error-all{
+  width: 500px;
+  height:150px;
+  border: 5px solid red;
+  background-color:gainsboro;
+ }
+
+ .index-error-top{
+  background-color: red;
+  height:30px;
+ }
+
+ .edit-error-top{
+  background-color: red;
+  height:30px;
+ }
+
+ .index-error{
+  margin-left: 20px;
+  color: aliceblue;
+ }
+
+ .edit-error{
+  margin-left: 20px;
+  color: white;
+ }
+
+ .index-error-item{
+  margin:30px 50px 30px;
+ }
+
+ .edit-error-item{
+  margin:30px 70px 30px;
+ }
+
+ .index-all{
+  margin-top:25px;
+  margin-left: 20px;
+ }
+
+ a{
+  color:black;
+ }
+
+ .index-table{
+  line-height: 3;
+ }
+
+ th, td {
+  padding: 5px 4px ; 
+}
+
+.index-title{
+  margin-top: 5px;
+}
+
+.index-body{
+  margin-top: 5px;
+}
+
+.index-submit{
+  margin-top: 5px;
+  display: block;
+}
+
+.show-success{
+  margin-top: 30px;
+  margin-left: 50px;
+  color: green;
+}
+
+.show-title-all{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.show-title{
+  margin-right:5px;
+}
+
+.show-body-all{
+  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.show-body{
+  margin-right:5px;
+}
+
+.show-url{
+  display: flex;
+  margin:30px;
+}
+
+.show-line{
+  margin: 0 5px;
+}
+
+.edit{
+  margin:20px 20px;
+}
+
+.edit-title{
+  margin-top: 5px;
+}
+
+.edit-body{
+  margin-top: 5px;
+}
+
+.edit-submit{
+  margin-top: 5px;
+}
+
+.edit-item{
+  display: flex;
+  margin-top: 5px;
+}
+
+.edit-line{
+  margin:0 5px;
+}
